@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"xuan-jr.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"xuan-jr.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="XuanJr&#39;s Land">
@@ -48,14 +48,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
 <script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
   
-
-
-
-
-
-
-  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -92,6 +95,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -100,11 +104,37 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-rss"><a href="/atom.xml" rel="section"><i class="fa fa-rss fa-fw"></i>RSS</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="Searching..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </header>
         
@@ -224,6 +254,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>4 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -328,6 +373,134 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Captialism_and_Communism/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Xuan Jr.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/02/17/My_Attitude_towards_Captialism_and_Communism/" class="post-title-link" itemprop="url">我对资本主义和社会主义的看法</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2024-02-17 00:00:00" itemprop="dateCreated datePublished" datetime="2024-02-17T00:00:00+08:00">2024-02-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-05-28 21:59:12" itemprop="dateModified" datetime="2025-05-28T21:59:12+08:00">2025-05-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/" itemprop="url" rel="index"><span itemprop="name">2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/2024-02/" itemprop="url" rel="index"><span itemprop="name">2024-02</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>584</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>问：你对资本主义和社会主义的看法是什么？</p>
+<p>答：各有各的优点。</p>
+<p>问：具体说说。</p>
+<p>答：接下来，我把资本主义、市场经济、私有制绑定，把社会主义、计划经济、公有制绑定。当然它们不一定是绑定的，但是我一时也想不到不绑定的方法。</p>
+<ul>
+<li>市场经济的优点是灵活、适合小战略，计划经济的优点是剥削少、适合大战略。</li>
+<li>私有制的优点是调动工作积极性，公有制的优点是公平。</li>
+</ul>
+<p>问：当今世界，很多国家都是混合经济，你为什么说“一时也想不到不绑定的方法”？</p>
+<p>答：虽然如此，但是，似乎，走到尽头，只能要么选择市场经济，要么选择计划经济。</p>
+<p>问：那么，你对毛泽东时代和邓小平时代的看法是什么？</p>
+<p>答：同上，各有各的优点。</p>
+<p>问：如果让你来当领导人，你会怎么做？</p>
+<p>答：我会尽量避免激进的方法（比如大跃进、文化大革命，比如休克疗法），采用中庸的方法。</p>
+<p>问：以上都是从宏观角度、全人类角度看此问题，从微观角度、你个人角度看此问题呢？你在这个时代，要如何做？</p>
+<p>答</p>
+<ul>
+<li>我会接受我的父母、我的伴侣、我的子女、我的知己选择任何政治倾向。</li>
+<li>政治倾向不是我的择偶标准之一。</li>
+<li>若我能挣很多钱，我会投资到教育和科技。详见我为狂飙所写的博客。</li>
+</ul>
+<p>问：在你现阶段，你要怎么做？</p>
+<p>答：我已决定，减少对此问题的关注。因为我现在窝在科大里，看到的人相比全人类，偏差(bias)太大。我关注此问题，除了把心情搞差，别无他用。</p>
+<p>问：GPT在此问题上对你利大于弊还是弊大于利？</p>
+<p>答：总体来看，利大于弊。但是，我发觉，之前和它聊这些，花费的时间精力略有些多。但这不是GPT的错。如果未来有一天我真的成了Duolingo创始人那样的人，或者成了杨振宁、张首晟那样的人，或者成了科协主席那样的人，我会再次和GPT探讨这些问题。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Curiosity/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -381,6 +554,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>679</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>2 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -501,6 +689,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>196</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -524,119 +727,6 @@
 </ul>
 </li>
 </ul>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Captialism_and_Communism/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Xuan Jr.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="XuanJr's Land">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | XuanJr's Land">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/02/17/My_Attitude_towards_Captialism_and_Communism/" class="post-title-link" itemprop="url">我对资本主义和社会主义的看法</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2024-02-17 00:00:00" itemprop="dateCreated datePublished" datetime="2024-02-17T00:00:00+08:00">2024-02-17</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-05-28 21:59:12" itemprop="dateModified" datetime="2025-05-28T21:59:12+08:00">2025-05-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/2024/" itemprop="url" rel="index"><span itemprop="name">2024</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/2024/2024-02/" itemprop="url" rel="index"><span itemprop="name">2024-02</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>问：你对资本主义和社会主义的看法是什么？</p>
-<p>答：各有各的优点。</p>
-<p>问：具体说说。</p>
-<p>答：接下来，我把资本主义、市场经济、私有制绑定，把社会主义、计划经济、公有制绑定。当然它们不一定是绑定的，但是我一时也想不到不绑定的方法。</p>
-<ul>
-<li>市场经济的优点是灵活、适合小战略，计划经济的优点是剥削少、适合大战略。</li>
-<li>私有制的优点是调动工作积极性，公有制的优点是公平。</li>
-</ul>
-<p>问：当今世界，很多国家都是混合经济，你为什么说“一时也想不到不绑定的方法”？</p>
-<p>答：虽然如此，但是，似乎，走到尽头，只能要么选择市场经济，要么选择计划经济。</p>
-<p>问：那么，你对毛泽东时代和邓小平时代的看法是什么？</p>
-<p>答：同上，各有各的优点。</p>
-<p>问：如果让你来当领导人，你会怎么做？</p>
-<p>答：我会尽量避免激进的方法（比如大跃进、文化大革命，比如休克疗法），采用中庸的方法。</p>
-<p>问：以上都是从宏观角度、全人类角度看此问题，从微观角度、你个人角度看此问题呢？你在这个时代，要如何做？</p>
-<p>答</p>
-<ul>
-<li>我会接受我的父母、我的伴侣、我的子女、我的知己选择任何政治倾向。</li>
-<li>政治倾向不是我的择偶标准之一。</li>
-<li>若我能挣很多钱，我会投资到教育和科技。详见我为狂飙所写的博客。</li>
-</ul>
-<p>问：在你现阶段，你要怎么做？</p>
-<p>答：我已决定，减少对此问题的关注。因为我现在窝在科大里，看到的人相比全人类，偏差(bias)太大。我关注此问题，除了把心情搞差，别无他用。</p>
-<p>问：GPT在此问题上对你利大于弊还是弊大于利？</p>
-<p>答：总体来看，利大于弊。但是，我发觉，之前和它聊这些，花费的时间精力略有些多。但这不是GPT的错。如果未来有一天我真的成了Duolingo创始人那样的人，或者成了杨振宁、张首晟那样的人，或者成了科协主席那样的人，我会再次和GPT探讨这些问题。</p>
 
       
     </div>
@@ -716,6 +806,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>401</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -822,6 +927,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>353</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -849,114 +969,6 @@
 </ul>
 <p>问：波普尔的“只能证伪不能证明”和你的游戏类比法有什么关系？</p>
 <p>答：用我的话说，波普尔指的是，<strong>自然科学中，我们猜测的游戏规则，只能被证伪，不能被证明</strong>。比如，我们只能说我们所有的观测都符合万有引力定律，而不能说我们所有的观测证明了万有引力定律。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Xuan Jr.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="XuanJr's Land">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | XuanJr's Land">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/02/17/My_Attitude_towards_Ideas/" class="post-title-link" itemprop="url">我的灵感</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2024-02-17 00:00:00" itemprop="dateCreated datePublished" datetime="2024-02-17T00:00:00+08:00">2024-02-17</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-05-28 21:58:39" itemprop="dateModified" datetime="2025-05-28T21:58:39+08:00">2025-05-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/2024/" itemprop="url" rel="index"><span itemprop="name">2024</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/2024/2024-02/" itemprop="url" rel="index"><span itemprop="name">2024-02</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>问：听说你有很多灵感？</p>
-<p>答：是的！</p>
-<p>问：比如？</p>
-<p>答：这些是我想出的，适合新生研讨课或者四级大物的问题</p>
-<ol>
-<li><p>石狮子真的会往上游走吗？</p>
-</li>
-<li><p>多少瓣的橘子最多？橘子瓣数的分布是什么？</p>
-</li>
-<li><p>为什么挤盒装牛奶时候牛奶有时会形成一种拧结的形状而有时又会分叉？为什么男性小便有时会形成一种拧结的形状？有时又会分叉？据说分叉和前列腺炎有相关性，这是真的吗？</p>
-</li>
-<li><p>为什么寝室楼门口的门会自动合上？</p>
-</li>
-<li><p>灰尘的化学组成到底是什么？</p>
-</li>
-<li><p>keep、悦跑圈、咕咚、佳明、华为、高驰的GPS的差异的探究</p>
-</li>
-</ol>
-<p>问：好吧，让我们回到文件名，你对这些灵感的态度是？</p>
-<p>答：我的时间、精力有限，但我不会因此就停止思考，停止自己的奇思妙想！我可以不去做，但我要想！</p>
 
       
     </div>
@@ -1036,6 +1048,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>1.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -1156,7 +1183,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning/">
+    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -1174,7 +1201,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/02/17/My_Attitude_towards_Learning/" class="post-title-link" itemprop="url">我对于学习的方法论</a>
+          <a href="/2024/02/17/My_Attitude_towards_Ideas/" class="post-title-link" itemprop="url">我的灵感</a>
         </h2>
 
         <div class="post-meta-container">
@@ -1192,7 +1219,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-05-28 22:00:52" itemprop="dateModified" datetime="2025-05-28T22:00:52+08:00">2025-05-28</time>
+      <time title="Modified: 2025-05-28 21:58:39" itemprop="dateModified" datetime="2025-05-28T21:58:39+08:00">2025-05-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1209,6 +1236,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>255</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -1218,80 +1260,26 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Q: In your opinion, how to study? (Including formal science, nature science, social science, humanity and anything else)</p>
-<p>A:</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>math, physics, statistic</th>
-<th>chemistry, biology, psychology, social science, humanity</th>
-<th>CS&#x2F;EE, programming language, nature language, exercise, music, cook, poem, drawing, video game</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Search the Internet&#x2F;Book</td>
-<td>√</td>
-<td>√</td>
-<td>√</td>
-</tr>
-<tr>
-<td>Deduction</td>
-<td>√</td>
-<td>×</td>
-<td>×</td>
-</tr>
-<tr>
-<td>Mind Map</td>
-<td>×</td>
-<td>√</td>
-<td>×</td>
-</tr>
-<tr>
-<td>Practice</td>
-<td>×</td>
-<td>×</td>
-<td>√</td>
-</tr>
-</tbody></table>
-<p>Q: Do you have anything to supplement?</p>
-<p>A:</p>
-<ul>
-<li>× and √ are not 0 and 1, not “never” and “always”, but “seldom” and “usually”.</li>
-<li>We can interpret the result from the point of view of neuroscience.<ul>
-<li>Language (both programming and natural) is more like non-declarative memory</li>
-<li>Math, biology are more like declarative memory</li>
-</ul>
+          <p>问：听说你有很多灵感？</p>
+<p>答：是的！</p>
+<p>问：比如？</p>
+<p>答：这些是我想出的，适合新生研讨课或者四级大物的问题</p>
+<ol>
+<li><p>石狮子真的会往上游走吗？</p>
 </li>
-<li>Comp Neuro, AI, ML, DL, RL are the inter-discipline of math, biology and CS, so need them all.</li>
-</ul>
-<p>Q: Why you never use the pdf of C, Data Structure after the course?</p>
-<p>A: They are too out-of-date. Just practice! Don’t be a nerd! Don’t learn English or Python in the class, just practice!</p>
-<p>问：你曾说，有两个习惯是转型1的关键，第一是瞬发搜查+瞬发整合，第二是默推，你还这么认为吗？</p>
-<p>答：瞬发搜查、默推没问题，对于瞬发整合，我有一点补充意见。</p>
-<p><strong>上课时，不能老师说一句话，我记一句话，我要滞后一些，有我自己的思考。</strong></p>
-<p><strong>看视频时，不能小林说一句话，我记一句话，我同样要滞后一些，有我自己的思考。</strong></p>
-<p>说白了，<strong>有自己的思考比瞬发更重要！</strong></p>
-<p>没有思考的复制粘贴，还不如不复制粘贴！立刻删掉！</p>
-<p>问：转型2的关键是什么？</p>
-<p>答：</p>
-<ul>
-<li>瞬发搜查、整合当然还是需要的。是否需要默推取决于你干啥，不同领域推公式&#x2F;写代码&#x2F;做实验的时间比例不一样。</li>
-<li>如果你已经有良好的搜索习惯了（事实上，没这习惯恐怕到不了转型2），那么，转型2的关键不是搜索，而是——转换思维，从学别人的到突破人类极限，从书本上到实践中，从站在学生的角度思考到站在Fisher的角度思考。</li>
-</ul>
-<p>问：纸笔、OneNote、GoodNote、Markdown Note、思维导图，你如何选择？</p>
-<p>答：<strong>看心情。</strong></p>
-<p>这有一个经验规律，但我也不是每次都遵守。</p>
-<img src="C:\Users\11097\AppData\Roaming\Typora\typora-user-images\image-20231116151030866.png" alt="image-20231116151030866" style="zoom: 33%;" />
-
-
-
-<p>问：在科研阶段，如何尽量让碎片知识整体化？</p>
-<p>答：尽量往书籍、课程、实验室上靠。具体来说</p>
-<ul>
-<li>paper尽量往book上靠。</li>
-<li>talk尽量往class上靠。</li>
-</ul>
+<li><p>多少瓣的橘子最多？橘子瓣数的分布是什么？</p>
+</li>
+<li><p>为什么挤盒装牛奶时候牛奶有时会形成一种拧结的形状而有时又会分叉？为什么男性小便有时会形成一种拧结的形状？有时又会分叉？据说分叉和前列腺炎有相关性，这是真的吗？</p>
+</li>
+<li><p>为什么寝室楼门口的门会自动合上？</p>
+</li>
+<li><p>灰尘的化学组成到底是什么？</p>
+</li>
+<li><p>keep、悦跑圈、咕咚、佳明、华为、高驰的GPS的差异的探究</p>
+</li>
+</ol>
+<p>问：好吧，让我们回到文件名，你对这些灵感的态度是？</p>
+<p>答：我的时间、精力有限，但我不会因此就停止思考，停止自己的奇思妙想！我可以不去做，但我要想！</p>
 
       
     </div>
@@ -1371,6 +1359,21 @@
     </span>
 
   
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>1.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>4 mins.</span>
+    </span>
 </div>
 
         </div>
@@ -1444,6 +1447,137 @@
 
 
 
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning_English/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Xuan Jr.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/02/17/My_Attitude_towards_Learning_English/" class="post-title-link" itemprop="url">我对学习英语的看法</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2024-02-17 00:00:00" itemprop="dateCreated datePublished" datetime="2024-02-17T00:00:00+08:00">2024-02-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-05-28 21:59:04" itemprop="dateModified" datetime="2025-05-28T21:59:04+08:00">2025-05-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/" itemprop="url" rel="index"><span itemprop="name">2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/2024-02/" itemprop="url" rel="index"><span itemprop="name">2024-02</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>68</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>1 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q &amp; A"></a>Q &amp; A</h1><p>Q: In your opinion, how to study English? </p>
+<p>A: <strong>Just practice.</strong></p>
+<h1 id="My-Own-Experience"><a href="#My-Own-Experience" class="headerlink" title="My Own Experience"></a>My Own Experience</h1><p>Below are some milestones.</p>
+<ul>
+<li><p>Listening</p>
+<ul>
+<li>2018&#x2F;06, watching videos with subtitles</li>
+<li>2022&#x2F;01, watching videos without subtitles</li>
+</ul>
+</li>
+<li><p>Speaking</p>
+<ul>
+<li>2023 Summer, giving talk in Croucher.</li>
+</ul>
+</li>
+<li><p>Reading</p>
+<ul>
+<li>2023 SP, translation less, read more.</li>
+</ul>
+</li>
+<li><p>Writing: no milestone yet.</p>
+</li>
+<li><p>Read Aloud</p>
+<ul>
+<li>2021&#x2F;01, I can remember the pronunciation of a word by repeating it several times.</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
   <nav class="pagination">
     <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/4/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -1462,7 +1596,39 @@
     </span>
     <span class="author" itemprop="copyrightHolder">Xuan Jr.</span>
   </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="Word count total">61k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">3:23</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
   </div>
 
     </div>
