@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"xuan-jr.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="半夜有点睡不着，给你们随便聊聊吧。 图片里涉及深度学习的三起三落中的前五次。有关第一次起落，图片里有件事没讲——当时感知机的发明者把感知机吹得特别神，说它能解决各种各样问题，和今天的ChatGPT差不多，所以后来摔得才那么惨，美国苏联才觉得自己被忽悠了。第三次落，是在2020-2022年间，有标签数据不够用了，所有有标签的图片也都被拿去训练了。第三次落的一个很明显的标志，就是我之前发给过你们的 D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深夜漫谈">
+<meta property="og:url" content="https://xuan-jr.github.io/2024/11/23/Deep_Talke_in_Mid_Night/index.html">
+<meta property="og:site_name" content="XuanJr&#39;s Land">
+<meta property="og:description" content="半夜有点睡不着，给你们随便聊聊吧。 图片里涉及深度学习的三起三落中的前五次。有关第一次起落，图片里有件事没讲——当时感知机的发明者把感知机吹得特别神，说它能解决各种各样问题，和今天的ChatGPT差不多，所以后来摔得才那么惨，美国苏联才觉得自己被忽悠了。第三次落，是在2020-2022年间，有标签数据不够用了，所有有标签的图片也都被拿去训练了。第三次落的一个很明显的标志，就是我之前发给过你们的 D">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-05-28T14:36:28.000Z">
+<meta property="article:author" content="Xuan Jr.">
+<meta property="article:tag" content="THINK">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://xuan-jr.github.io/2024/11/23/Deep_Talke_in_Mid_Night/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://xuan-jr.github.io/2024/11/23/Deep_Talke_in_Mid_Night/","path":"2024/11/23/Deep_Talke_in_Mid_Night/","title":"深夜漫谈"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>深夜漫谈 | XuanJr's Land</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="XuanJr's Land" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">XuanJr's Land</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-rss"><a href="/atom.xml" rel="section"><i class="fa fa-rss fa-fw"></i>RSS</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="Searching..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Xuan Jr.</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">62</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://xuan-jr.github.io/2024/11/23/Deep_Talke_in_Mid_Night/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Xuan Jr.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="深夜漫谈 | XuanJr's Land">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          深夜漫谈
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2024-11-23 00:00:00" itemprop="dateCreated datePublished" datetime="2024-11-23T00:00:00+08:00">2024-11-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-05-28 22:36:28" itemprop="dateModified" datetime="2025-05-28T22:36:28+08:00">2025-05-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/" itemprop="url" rel="index"><span itemprop="name">2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/2024/2024-11/" itemprop="url" rel="index"><span itemprop="name">2024-11</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>1.3k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>4 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>半夜有点睡不着，给你们随便聊聊吧。</p>
+<p>图片里涉及深度学习的三起三落中的前五次。有关第一次起落，图片里有件事没讲——当时感知机的发明者把感知机吹得特别神，说它能解决各种各样问题，和今天的ChatGPT差不多，所以后来摔得才那么惨，美国苏联才觉得自己被忽悠了。第三次落，是在2020-2022年间，有标签数据不够用了，所有有标签的图片也都被拿去训练了。第三次落的一个很明显的标志，就是我之前发给过你们的 <em>Deep Learning Is Hitting A Wall</em>，这文章的作者是符号学派的拥趸，他觉得AGI需要预先定义的符号以及符号间的操作来达到。但是谁也没想到（当然也包括LeCun这些人），2022年11月，那个东西就横空出世。ChatGPT以前，很多人都在怀疑Deep Learning这种方法能否达到AGI，但是在它之后，几乎没有人怀疑。在那之前，做AI的人也大都相信实现AGI需要神经科学的帮助，毕竟生物是唯一一种已知的智能；在那之后，做神经科学的人自己都不信实现AGI需要神经科学的帮助了。</p>
+<p>虽然深度学习火了，但我从未后悔我18岁时选了物理。我还记得高中时候，老师讲电荷周围有电场、磁铁周围有磁场，我问老师你为什么相信电场磁场是真实存在的、凭什么超距作用就是错的？老师只是说它们就是存在的；我还记得初中时候，我和朋友们讨论，为什么$Ca^{2+}$的电子排布是2-8-8-2，而不是2-8-9-1？</p>
+<p>这两个问题，如果本科不学物理，我一辈子都无法回答了。也无法告诉我的孩子们。我难道真的要一辈子都不知道这两个问题的答案？当然有人可能会说，你之后自学也一样。但是我知道我数理能力的上限，我没有严济慈、李政道、丘成桐那样的才华（他仨传记里写他们本科主要靠自学），如果没有一大群人和我一起学，我一个人自学是肯定自学不下去的。我如果不是物院的，我不可能自学学会电动力学和量子力学，就像我作为一个物院学生不可能自学学会实分析和泛函分析一样。</p>
+<p>第一个问题无非是因为法拉第和麦克斯韦的理论更简洁，可能纽曼、韦伯、高斯、黎曼他们的加上一些修修补补也能解释电磁感应、电磁波、电磁辐射，但我们肯定相信简洁的那个；第二个问题，用薛定谔方程推导一下或者模拟一下就可以了，至于为什么我们相信薛定谔方程是对的，因为解出来氢原子的光谱和实验很像。</p>
+<p>我看过你们这些次的作业，我能感觉出来，你们中有20%的人论数理能力是明显在我之上的。但是你想成数学家或者物理学家，光有数理能力是不够的，还要求知欲、勇气、面对挫折的不屈不挠、和他人合作、表达能力。这五者我是非常优秀的（自我吹嘘一下）。</p>
+<p>我现在觉得，统计也是很有意思的学科。她们的那些故事，优生学、女士品茶、普希金的诗、英语的香农熵，都是非常有趣的。只是我高中对于统计、机器学习了解得太少了。我高中听说过“人工智能”，但压根就没听说过“机器学习”这四个字。我高中时候听说亚里士多德、托勒密、哥白尼、开普勒、伽利略、牛顿、法拉第、麦克斯韦、爱因斯坦的故事，但从未听说过高尔顿、皮尔逊、费雪、马尔可夫、香农的故事。</p>
+<p>大三时候，我心里觉得物理有点老了，old-fashioned，不想去做凝聚态、原子分子、天文学、粒子物理这些，想去做交叉学科。当时有三个方向供我选择，去做生物物理&#x2F;神经科学，还是做医学物理，还是机器学习&#x2F;深度学习。后来我选择了第一个。其实这三个选哪个现在我都不会后悔，因为都还蛮有意思。</p>
+<p>总之希望你们能找到自己喜欢做的事情。可能是一个你一直想回答的问题（比如我文中的这两个问题），可能是你闲聊时喜欢和别人扯的话题（比如我对于统计、机器学习、深度学习），可能是你觉得你这辈子不做就亏了的事情（比如我对于物理），也可能是没有任何原因就是喜欢（好吧，以上那些原因也可能是因为我就是喜欢物理和统计，才想出这些原因说服自己 :) ）。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/THINK/" rel="tag"># THINK</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/10/17/Salinger_LLM/" rel="prev" title="用塞林格的语气续写一个故事">
+                  <i class="fa fa-angle-left"></i> 用塞林格的语气续写一个故事
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/01/01/Exercise_Plans_and_Laws/" rel="next" title="2024秋的锻炼计划">
+                  2024秋的锻炼计划 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Xuan Jr.</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="Word count total">62k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">3:28</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Xuan-Jr","repo":"xuan-jr.github.io","client_id":"Ov23liOJc9HwODFmgjT5","client_secret":"54ff5473e31776c52846daece75472174e1866b7","admin_user":"Xuan-Jr","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"0768c2a38c3ce2216b4a47d5d2ea3d7e"}</script>
+<script src="/js/third-party/comments/gitalk.js" defer></script>
+
+</body>
+</html>
