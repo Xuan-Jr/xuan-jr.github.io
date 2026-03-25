@@ -6,7 +6,7 @@
   <link href="https://xuan-jr.github.io/atom.xml" rel="self"/>
   
   <link href="https://xuan-jr.github.io/"/>
-  <updated>2025-12-28T11:56:47.184Z</updated>
+  <updated>2026-03-21T14:11:50.646Z</updated>
   <id>https://xuan-jr.github.io/</id>
   
   <author>
@@ -17,18 +17,109 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>懿轩读《春秋》、《史记》</title>
+    <link href="https://xuan-jr.github.io/2026/03/21/chun_qiu/"/>
+    <id>https://xuan-jr.github.io/2026/03/21/chun_qiu/</id>
+    <published>2026-03-20T16:00:00.000Z</published>
+    <updated>2026-03-21T14:11:50.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;真希望有人能帮我审阅一下这篇文章啊！可惜中科大没有历史系，也没有中文系。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这段时间，陆陆续续读了《春秋》、《史记》等史书。上中学时没翻，现在看了。&lt;/p&gt;
+&lt;p&gt;在中国所有史书里，如果只能保留两本，那一定是《春秋》和《史记》。如果只能保留一本，我会选择《史记》。&lt;/p&gt;
+&lt;h1 id=&quot;华夷之辩、胡汉之争&quot;&gt;&lt;a href=&quot;#华夷之辩、胡汉之争&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="2026" scheme="https://xuan-jr.github.io/categories/2026/"/>
+    
+    <category term="2026-03" scheme="https://xuan-jr.github.io/categories/2026/2026-03/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="history" scheme="https://xuan-jr.github.io/tags/history/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>直觉爱好者 vs 直觉厌恶者</title>
+    <link href="https://xuan-jr.github.io/2026/03/19/Intuitionist_vs_Anti-Intuitionist/"/>
+    <id>https://xuan-jr.github.io/2026/03/19/Intuitionist_vs_Anti-Intuitionist/</id>
+    <published>2026-03-18T16:00:00.000Z</published>
+    <updated>2026-03-20T15:34:22.141Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天和老婆一起看了3B1B的最新视频——他在UC</summary>
+        
+      
+    
+    
+    
+    <category term="2026" scheme="https://xuan-jr.github.io/categories/2026/"/>
+    
+    <category term="2026-03" scheme="https://xuan-jr.github.io/categories/2026/2026-03/"/>
+    
+    
+    <category term="physics" scheme="https://xuan-jr.github.io/tags/physics/"/>
+    
+    <category term="math" scheme="https://xuan-jr.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>做别人没做过的科普</title>
+    <link href="https://xuan-jr.github.io/2026/03/10/popular_science/"/>
+    <id>https://xuan-jr.github.io/2026/03/10/popular_science/</id>
+    <published>2026-03-09T16:00:00.000Z</published>
+    <updated>2026-03-25T07:14:54.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.微积分、线性代数、概率论、统计、微分方程：3B1B都做过了（炫酷动画）。&lt;/p&gt;
+&lt;p&gt;2.AI、ML、DL、LLM: josh</summary>
+        
+      
+    
+    
+    
+    <category term="2026" scheme="https://xuan-jr.github.io/categories/2026/"/>
+    
+    <category term="2026-03" scheme="https://xuan-jr.github.io/categories/2026/2026-03/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
     <title>魔兽争霸中的通用智能和专用智能</title>
     <link href="https://xuan-jr.github.io/2025/12/26/Warcraft_3_and_Machine_Learning/"/>
     <id>https://xuan-jr.github.io/2025/12/26/Warcraft_3_and_Machine_Learning/</id>
     <published>2025-12-25T16:00:00.000Z</published>
-    <updated>2025-12-28T11:56:47.184Z</updated>
+    <updated>2026-01-26T06:06:20.142Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;问答&quot;&gt;&lt;a href=&quot;#问答&quot; class=&quot;headerlink&quot; title=&quot;问答&quot;&gt;&lt;/a&gt;问答&lt;/h1&gt;&lt;p&gt;问：为什么我打不过电脑，而infi和ted能打过？&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;问答&quot;&gt;&lt;a href=&quot;#问答&quot; class=&quot;headerlink&quot; title=&quot;问答&quot;&gt;&lt;/a&gt;问答&lt;/h1&gt;&lt;p&gt;问：为什么我打不过电脑，而sky, infi和ted能打过？&lt;/p&gt;
 &lt;p&gt;答：他们的Action Per</summary>
         
       
@@ -316,9 +407,9 @@
     <category term="2025-06" scheme="https://xuan-jr.github.io/categories/2025/2025-06/"/>
     
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="friend" scheme="https://xuan-jr.github.io/tags/friend/"/>
     
@@ -349,9 +440,9 @@
     <category term="2025-06" scheme="https://xuan-jr.github.io/categories/2025/2025-06/"/>
     
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="friend" scheme="https://xuan-jr.github.io/tags/friend/"/>
     
@@ -382,9 +473,9 @@
     <category term="2025-06" scheme="https://xuan-jr.github.io/categories/2025/2025-06/"/>
     
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="friend" scheme="https://xuan-jr.github.io/tags/friend/"/>
     
@@ -542,6 +633,57 @@
   </entry>
   
   <entry>
+    <title>OneNote vs Obsidian</title>
+    <link href="https://xuan-jr.github.io/2025/06/08/OneNote_vs_Obsidian/"/>
+    <id>https://xuan-jr.github.io/2025/06/08/OneNote_vs_Obsidian/</id>
+    <published>2025-06-07T16:00:00.000Z</published>
+    <updated>2025-08-31T14:22:49.387Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;OneNote&lt;/th&gt;
+&lt;th&gt;Obsidian&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;价格&lt;/td&gt;
+&lt;td&gt;免费&lt;/td&gt;
+&lt;td&gt;部分功能需付费&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;开源&lt;/td&gt;
+&lt;td&gt;闭源&lt;/td&gt;
+&lt;td&gt;闭源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;插件&lt;/td&gt;
+&lt;td&gt;少&lt;/td&gt;
+&lt;td&gt;多&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;插入图片&lt;/td&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="2025" scheme="https://xuan-jr.github.io/categories/2025/"/>
+    
+    <category term="2025-06" scheme="https://xuan-jr.github.io/categories/2025/2025-06/"/>
+    
+    
+    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
     <title>性、手淫、色情</title>
     <link href="https://xuan-jr.github.io/2025/06/05/Sex_Masturbation_Porn/"/>
     <id>https://xuan-jr.github.io/2025/06/05/Sex_Masturbation_Porn/</id>
@@ -571,6 +713,44 @@
     <category term="masturbation" scheme="https://xuan-jr.github.io/tags/masturbation/"/>
     
     <category term="porn" scheme="https://xuan-jr.github.io/tags/porn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Text-To-Speech 插件测评</title>
+    <link href="https://xuan-jr.github.io/2025/06/05/TTS_Extensions_Comparing/"/>
+    <id>https://xuan-jr.github.io/2025/06/05/TTS_Extensions_Comparing/</id>
+    <published>2025-06-04T16:00:00.000Z</published>
+    <updated>2025-06-05T11:14:44.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Read Aloud&lt;/th&gt;
+&lt;th&gt;Sider&lt;/th&gt;
+&lt;th&gt;Speechify&lt;/th&gt;
+&lt;th&gt;Read Aloud TTS&lt;/th&gt;
+&lt;th&gt;Read to Me&lt;/th&gt;
+&lt;th&gt;Natural</summary>
+        
+      
+    
+    
+    
+    <category term="2025" scheme="https://xuan-jr.github.io/categories/2025/"/>
+    
+    <category term="2025-06" scheme="https://xuan-jr.github.io/categories/2025/2025-06/"/>
+    
+    
+    <category term="AI" scheme="https://xuan-jr.github.io/tags/AI/"/>
+    
+    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
     
   </entry>
   
@@ -658,9 +838,9 @@
     <category term="2025-05" scheme="https://xuan-jr.github.io/categories/2025/2025-05/"/>
     
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
   </entry>
   
@@ -690,9 +870,38 @@
     <category term="2025-05" scheme="https://xuan-jr.github.io/categories/2025/2025-05/"/>
     
     
+    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
+  </entry>
+  
+  <entry>
+    <title>Watching 15 YouTubers Playing the Telephone Game</title>
+    <link href="https://xuan-jr.github.io/2025/05/23/Watching_15_YouTubers_Playing_the_Telephone_Game/"/>
+    <id>https://xuan-jr.github.io/2025/05/23/Watching_15_YouTubers_Playing_the_Telephone_Game/</id>
+    <published>2025-05-22T16:00:00.000Z</published>
+    <updated>2025-05-23T09:50:07.534Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi, Guys! Today I watch &lt;a href=&quot;https://www.youtube.com/watch?v=MCuCBt24hAk&quot;&gt;a YouTube video&lt;/a&gt; about 15 popular science YouTubers playing the telephone game. This video was published on Sep 25, 2020, nearly 5 years ago! Time passes by so</summary>
+        
+      
+    
+    
+    
+    <category term="2025" scheme="https://xuan-jr.github.io/categories/2025/"/>
+    
+    <category term="2025-05" scheme="https://xuan-jr.github.io/categories/2025/2025-05/"/>
+    
+    
     <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
   </entry>
   
@@ -764,6 +973,35 @@
     
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Models of the Mind 第八章 | 运动</title>
+    <link href="https://xuan-jr.github.io/2025/05/10/CH8_Movement_in_Low_Dim/"/>
+    <id>https://xuan-jr.github.io/2025/05/10/CH8_Movement_in_Low_Dim/</id>
+    <published>2025-05-09T16:00:00.000Z</published>
+    <updated>2025-11-20T06:31:24.309Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;5月8日，火车上，我读了 &lt;em&gt;Models of the Mind&lt;/em&gt; 的第八章—— Movement in Low Dim，主打运动。&lt;/p&gt;
+&lt;p&gt;Grace介绍了四代科学家&lt;/p&gt;
+&lt;h1 id=&quot;第一代：德国兄弟&quot;&gt;&lt;a href=&quot;#第一代：德国兄弟&quot; class=&quot;headerlink&quot; title=&quot;第一代：德国兄弟&quot;&gt;&lt;/a&gt;第一代：德国兄弟&lt;/h1&gt;&lt;p&gt;Gustav Fritsch 和 Eduard Hitzig</summary>
+        
+      
+    
+    
+    
+    <category term="2025" scheme="https://xuan-jr.github.io/categories/2025/"/>
+    
+    <category term="2025-05" scheme="https://xuan-jr.github.io/categories/2025/2025-05/"/>
+    
+    
+    <category term="Computational Neuroscience" scheme="https://xuan-jr.github.io/tags/Computational-Neuroscience/"/>
     
   </entry>
   
@@ -1161,6 +1399,47 @@
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="capitalism" scheme="https://xuan-jr.github.io/tags/capitalism/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>World Order | Ray Dalio</title>
+    <link href="https://xuan-jr.github.io/2025/02/08/World_Order_by_Ray_Dalio/"/>
+    <id>https://xuan-jr.github.io/2025/02/08/World_Order_by_Ray_Dalio/</id>
+    <published>2025-02-07T16:00:00.000Z</published>
+    <updated>2025-11-20T06:39:13.846Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Dalio 的 &lt;a href=&quot;https://www.youtube.com/watch?v=xguam0TKMw8&amp;t=638s&quot;&gt;World Order&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;优点&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;他的理解出自资本主义、市场经济。他的视频可以告诉我们一个坚信市场经济的人是如何看待World Order的。&lt;/li&gt;
+&lt;li&gt;他正确解释了衰落两部曲：名不副实 -&amp;gt;</summary>
+        
+      
+    
+    
+    
+    <category term="2025" scheme="https://xuan-jr.github.io/categories/2025/"/>
+    
+    <category term="2025-02" scheme="https://xuan-jr.github.io/categories/2025/2025-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="capitalism" scheme="https://xuan-jr.github.io/tags/capitalism/"/>
+    
+    <category term="socialism" scheme="https://xuan-jr.github.io/tags/socialism/"/>
+    
+    <category term="politics" scheme="https://xuan-jr.github.io/tags/politics/"/>
+    
+    <category term="nationalism" scheme="https://xuan-jr.github.io/tags/nationalism/"/>
+    
+    <category term="history" scheme="https://xuan-jr.github.io/tags/history/"/>
     
   </entry>
   
@@ -1626,9 +1905,9 @@
     
     <category term="BCI" scheme="https://xuan-jr.github.io/tags/BCI/"/>
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="science" scheme="https://xuan-jr.github.io/tags/science/"/>
     
@@ -1787,6 +2066,37 @@
   </entry>
   
   <entry>
+    <title>我对神经科学和人工智能的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_CNeuro_and_AI/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_CNeuro_and_AI/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T13:59:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：听说你最近对于C</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="AI" scheme="https://xuan-jr.github.io/tags/AI/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="neuroscience" scheme="https://xuan-jr.github.io/tags/neuroscience/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我对资本主义和社会主义的看法</title>
     <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Captialism_and_Communism/"/>
     <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Captialism_and_Communism/</id>
@@ -1861,70 +2171,6 @@
   </entry>
   
   <entry>
-    <title>我对神经科学和人工智能的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_CNeuro_and_AI/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_CNeuro_and_AI/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T13:59:19.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：听说你最近对于C</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="AI" scheme="https://xuan-jr.github.io/tags/AI/"/>
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="neuroscience" scheme="https://xuan-jr.github.io/tags/neuroscience/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对亲情、爱情、友情的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Family_Love_and_Friendship/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Family_Love_and_Friendship/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T13:59:29.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Q: 你对亲情的看法是什么？&lt;/p&gt;
-&lt;p&gt;A: 周末是用来陪家人的。&lt;/p&gt;
-&lt;p&gt;Q: 你对爱情的看法是什么？&lt;/p&gt;
-&lt;p&gt;A: 我想和她一起牵着孩子的手走在路上。&lt;/p&gt;
-&lt;p&gt;Q:</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我对争夺优先权的看法</title>
     <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Fighting_for_Priority/"/>
     <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Fighting_for_Priority/</id>
@@ -1950,77 +2196,6 @@
     
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对游戏的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Game_Analogy/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Game_Analogy/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T13:57:54.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：你常说的Game</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
-    
-    <category term="science" scheme="https://xuan-jr.github.io/tags/science/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的灵感</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T13:58:39.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：听说你有很多灵感？&lt;/p&gt;
-&lt;p&gt;答：是的！&lt;/p&gt;
-&lt;p&gt;问：比如？&lt;/p&gt;
-&lt;p&gt;答：这些是我想出的，适合新生研讨课或者四级大物的问题&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;石狮子真的会往上游走吗？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;多少瓣的橘子最多？橘子瓣数的分布是什么？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;为什么挤盒装牛奶时候牛奶有时会形成一种拧结的形状而有时又会分叉？为什么男性小便有时会形成一种拧结的形状？有时又会分叉？据说分叉和前列腺炎有相关性，这是真的吗？&lt;/p&gt;
-&lt;/li&gt;
-&lt;</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
     
   </entry>
   
@@ -2061,25 +2236,99 @@
   </entry>
   
   <entry>
-    <title>我对于学习的方法论</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning/</id>
+    <title>我对亲情、爱情、友情的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Family_Love_and_Friendship/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Family_Love_and_Friendship/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:00:52.000Z</updated>
+    <updated>2025-05-28T13:59:29.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Q: In your opinion, how to study? (Including formal science, nature science, social science, humanity and anything else)&lt;/p&gt;
-&lt;p&gt;A:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;math, physics, statistic&lt;/th&gt;
-&lt;th&gt;chemistry, biology, psychology, social</summary>
+    <summary type="html">&lt;p&gt;Q: 你对亲情的看法是什么？&lt;/p&gt;
+&lt;p&gt;A: 周末是用来陪家人的。&lt;/p&gt;
+&lt;p&gt;Q: 你对爱情的看法是什么？&lt;/p&gt;
+&lt;p&gt;A: 我想和她一起牵着孩子的手走在路上。&lt;/p&gt;
+&lt;p&gt;Q:</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的灵感</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Ideas/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T13:58:39.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：听说你有很多灵感？&lt;/p&gt;
+&lt;p&gt;答：是的！&lt;/p&gt;
+&lt;p&gt;问：比如？&lt;/p&gt;
+&lt;p&gt;答：这些是我想出的，适合新生研讨课或者四级大物的问题&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;石狮子真的会往上游走吗？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;多少瓣的橘子最多？橘子瓣数的分布是什么？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;为什么挤盒装牛奶时候牛奶有时会形成一种拧结的形状而有时又会分叉？为什么男性小便有时会形成一种拧结的形状？有时又会分叉？据说分叉和前列腺炎有相关性，这是真的吗？&lt;/p&gt;
+&lt;/li&gt;
+&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我对法治、民主的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Laws/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Laws/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:00:04.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：你更倾向于法治还是人治？&lt;/p&gt;
+&lt;p&gt;答：法治。&lt;/p&gt;
+&lt;p&gt;问：你更倾向于民主还是独裁？&lt;/p&gt;
+&lt;p&gt;答：民主。&lt;/p&gt;
+&lt;p&gt;问：为什么你倾向于法治？&lt;/p&gt;
+&lt;p&gt;答：法治更像数学物理统计，人治更像信任个人的能力。我当然倾向前者，个人能力很少能胜过制度。&lt;/p&gt;
+&lt;p&gt;问：为什么你倾向于民主？&lt;/p&gt;
+&lt;p&gt;答：事实上，对于民主，我没有对法治那么倾向。用连续谱来说的话，法治是0，人治是1，那我是0.2；民主是0，独裁是1，那我是0.4。&lt;/p&gt;
+&lt;p&gt;问：对于犯法的人，你的</summary>
         
       
     
@@ -2092,13 +2341,7 @@
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
-    <category term="math" scheme="https://xuan-jr.github.io/tags/math/"/>
-    
-    <category term="biology" scheme="https://xuan-jr.github.io/tags/biology/"/>
-    
-    <category term="language" scheme="https://xuan-jr.github.io/tags/language/"/>
-    
-    <category term="CS" scheme="https://xuan-jr.github.io/tags/CS/"/>
+    <category term="politics" scheme="https://xuan-jr.github.io/tags/politics/"/>
     
   </entry>
   
@@ -2165,33 +2408,64 @@
     <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
     
     
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
     <category term="love" scheme="https://xuan-jr.github.io/tags/love/"/>
     
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
   </entry>
   
   <entry>
-    <title>我对法治、民主的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Laws/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Laws/</id>
+    <title>我对游戏的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Game_Analogy/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Game_Analogy/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:00:04.000Z</updated>
+    <updated>2025-05-28T13:57:54.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;问：你更倾向于法治还是人治？&lt;/p&gt;
-&lt;p&gt;答：法治。&lt;/p&gt;
-&lt;p&gt;问：你更倾向于民主还是独裁？&lt;/p&gt;
-&lt;p&gt;答：民主。&lt;/p&gt;
-&lt;p&gt;问：为什么你倾向于法治？&lt;/p&gt;
-&lt;p&gt;答：法治更像数学物理统计，人治更像信任个人的能力。我当然倾向前者，个人能力很少能胜过制度。&lt;/p&gt;
-&lt;p&gt;问：为什么你倾向于民主？&lt;/p&gt;
-&lt;p&gt;答：事实上，对于民主，我没有对法治那么倾向。用连续谱来说的话，法治是0，人治是1，那我是0.2；民主是0，独裁是1，那我是0.4。&lt;/p&gt;
-&lt;p&gt;问：对于犯法的人，你的</summary>
+    <summary type="html">&lt;p&gt;问：你常说的Game</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="fun" scheme="https://xuan-jr.github.io/tags/fun/"/>
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="science" scheme="https://xuan-jr.github.io/tags/science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>共产主义社会的爱情将会是什么样的？</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Love_in_Communist_Society/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Love_in_Communist_Society/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-29T09:05:53.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Q: 共产主义社会的爱情将会是什么样的？&lt;/p&gt;
+&lt;p&gt;A:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每个人都可以自由地追逐自己想要的事情，只要不伤害其他人。&lt;/li&gt;
+&lt;li&gt;有的人会签订一个一夫一妻的条约，约定双方之后只能和对方发生性行为，如果违约会有惩罚。有的人会选择随意发生性行为。&lt;/li&gt;
+&lt;li&gt;异性恋、同性恋、双性恋、跨性别的人都会被社会接受。&lt;/li&gt;
+&lt;li&gt;强迫别人和自己发生性行为、和未成年人发生性行为，因为会伤害其他人，不会被社会接受。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Q:</summary>
         
       
     
@@ -2204,29 +2478,26 @@
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
-    <category term="politics" scheme="https://xuan-jr.github.io/tags/politics/"/>
+    <category term="socialism" scheme="https://xuan-jr.github.io/tags/socialism/"/>
     
   </entry>
   
   <entry>
-    <title>我对自己的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Myself/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Myself/</id>
+    <title>我对手淫和性行为的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Masturbation_and_Sex/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Masturbation_and_Sex/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:04:30.000Z</updated>
+    <updated>2025-05-28T14:04:09.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;问：听说你标榜自己是亚洲金童？&lt;/p&gt;
-&lt;p&gt;答：是的！我带过像贺维易这样的美女跑步、健身。我无需对健身房里的各种女生各种看，看个屁。我是亚洲金童，很少有人能入我之眼。我，会找一个比那五位都强的！她们和贺维易能比吗？&lt;/p&gt;
-&lt;p&gt;问：听说你在科大处处心碎？&lt;/p&gt;
-&lt;p&gt;答：处处心碎也不是坏事！这说明我是一个重情重义的人！老子就处处心碎了，你能把我怎么着！&lt;/p&gt;
-&lt;p&gt;问：听说你很想去美国搞AI？&lt;/p&gt;
-&lt;p&gt;答：是的，现在欧洲的AI和美国怎么比？比不了！&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;问：有人说，没法给出一个合适手淫频率，你同意这句话吗？为什么？&lt;/p&gt;
+&lt;p&gt;答：同意。合适手淫频率显然因人而异。&lt;/p&gt;
+&lt;p&gt;问：你可以做一些类比吗？&lt;/p&gt;
+&lt;p&gt;答：类似于，打麻将的合适频率、打电子游戏的合适频率。&lt;strong&gt;人是不一样的&lt;/strong&gt;，有的人必须不沾染这两点，一旦沾染就会沉迷，那他们的合适频率为0；有的人一周打1次；有的人哪怕一周打7次，但他们依然能很好地工作、学习，且并为因此疏远家人、伴侣、子女，且对其它东西没有丧失兴趣，那他们的合适频率就是1周7次。&lt;</summary>
         
       
     
@@ -2238,6 +2509,10 @@
     
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="sex" scheme="https://xuan-jr.github.io/tags/sex/"/>
+    
+    <category term="masturbation" scheme="https://xuan-jr.github.io/tags/masturbation/"/>
     
   </entry>
   
@@ -2281,26 +2556,24 @@
   </entry>
   
   <entry>
-    <title>共产主义社会的爱情将会是什么样的？</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Love_in_Communist_Society/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Love_in_Communist_Society/</id>
+    <title>我对自己的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Myself/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Myself/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-29T09:05:53.000Z</updated>
+    <updated>2025-05-28T14:04:30.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Q: 共产主义社会的爱情将会是什么样的？&lt;/p&gt;
-&lt;p&gt;A:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;每个人都可以自由地追逐自己想要的事情，只要不伤害其他人。&lt;/li&gt;
-&lt;li&gt;有的人会签订一个一夫一妻的条约，约定双方之后只能和对方发生性行为，如果违约会有惩罚。有的人会选择随意发生性行为。&lt;/li&gt;
-&lt;li&gt;异性恋、同性恋、双性恋、跨性别的人都会被社会接受。&lt;/li&gt;
-&lt;li&gt;强迫别人和自己发生性行为、和未成年人发生性行为，因为会伤害其他人，不会被社会接受。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Q:</summary>
+    <summary type="html">&lt;p&gt;问：听说你标榜自己是亚洲金童？&lt;/p&gt;
+&lt;p&gt;答：是的！我带过像贺维易这样的美女跑步、健身。我无需对健身房里的各种女生各种看，看个屁。我是亚洲金童，很少有人能入我之眼。我，会找一个比那五位都强的！她们和贺维易能比吗？&lt;/p&gt;
+&lt;p&gt;问：听说你在科大处处心碎？&lt;/p&gt;
+&lt;p&gt;答：处处心碎也不是坏事！这说明我是一个重情重义的人！老子就处处心碎了，你能把我怎么着！&lt;/p&gt;
+&lt;p&gt;问：听说你很想去美国搞AI？&lt;/p&gt;
+&lt;p&gt;答：是的，现在欧洲的AI和美国怎么比？比不了！&lt;/p&gt;
+</summary>
         
       
     
@@ -2313,7 +2586,76 @@
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
-    <category term="socialism" scheme="https://xuan-jr.github.io/tags/socialism/"/>
+  </entry>
+  
+  <entry>
+    <title>我对于学习的方法论</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Learning/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:00:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Q: In your opinion, how to study? (Including formal science, nature science, social science, humanity and anything else)&lt;/p&gt;
+&lt;p&gt;A:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;math, physics, statistic&lt;/th&gt;
+&lt;th&gt;chemistry, biology, psychology, social</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="math" scheme="https://xuan-jr.github.io/tags/math/"/>
+    
+    <category term="biology" scheme="https://xuan-jr.github.io/tags/biology/"/>
+    
+    <category term="language" scheme="https://xuan-jr.github.io/tags/language/"/>
+    
+    <category term="CS" scheme="https://xuan-jr.github.io/tags/CS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我对责任、诚信、浪漫的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Responsibiliy_Honesty_and_Romance/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Responsibiliy_Honesty_and_Romance/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:07:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Today, I just want to share 3 stories from my life with you, not very long, just 3 stories.&lt;/p&gt;
+&lt;p&gt;The first story is about responsibility.&lt;/p&gt;
+&lt;p&gt;When I was in the senior high school, I fell in love with a girl. I chased her, and she agreed. We</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
   </entry>
   
@@ -2352,90 +2694,27 @@
   </entry>
   
   <entry>
-    <title>我对责任、诚信、浪漫的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Responsibiliy_Honesty_and_Romance/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Responsibiliy_Honesty_and_Romance/</id>
+    <title>我对自省的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Self-Improvement/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Self-Improvement/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:07:01.000Z</updated>
+    <updated>2025-05-28T14:08:24.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Today, I just want to share 3 stories from my life with you, not very long, just 3 stories.&lt;/p&gt;
-&lt;p&gt;The first story is about responsibility.&lt;/p&gt;
-&lt;p&gt;When I was in the senior high school, I fell in love with a girl. I chased her, and she agreed. We</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对手淫和性行为的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Masturbation_and_Sex/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Masturbation_and_Sex/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:04:09.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：有人说，没法给出一个合适手淫频率，你同意这句话吗？为什么？&lt;/p&gt;
-&lt;p&gt;答：同意。合适手淫频率显然因人而异。&lt;/p&gt;
-&lt;p&gt;问：你可以做一些类比吗？&lt;/p&gt;
-&lt;p&gt;答：类似于，打麻将的合适频率、打电子游戏的合适频率。&lt;strong&gt;人是不一样的&lt;/strong&gt;，有的人必须不沾染这两点，一旦沾染就会沉迷，那他们的合适频率为0；有的人一周打1次；有的人哪怕一周打7次，但他们依然能很好地工作、学习，且并为因此疏远家人、伴侣、子女，且对其它东西没有丧失兴趣，那他们的合适频率就是1周7次。&lt;</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="sex" scheme="https://xuan-jr.github.io/tags/sex/"/>
-    
-    <category term="masturbation" scheme="https://xuan-jr.github.io/tags/masturbation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对科学家的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Scientists/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Scientists/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:08:01.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：听说你最近说什么“坚固持久的幻觉”？&lt;/p&gt;
-&lt;p&gt;答：是的，科学家不会学术造假，这是我脑海中最为坚固持久的幻觉。&lt;/p&gt;
-&lt;p&gt;问：难道你上大学前就从来没听说过科学家里也有坏人吗？&lt;/p&gt;
-&lt;p&gt;答：当然听说过。但是，我当时听说的仅仅是&lt;/p&gt;
+    <summary type="html">&lt;p&gt;问：你眼中的自我进步的定义是什么？&lt;/p&gt;
+&lt;p&gt;答：定义为通过一些思考来让自己变得更优秀。通常特指工作学习之外的思考。&lt;/p&gt;
+&lt;p&gt;问：它的同义词？&lt;/p&gt;
+&lt;p&gt;答：自我提升、自我改进。&lt;/p&gt;
+&lt;p&gt;问：它包括什么？&lt;/p&gt;
+&lt;p&gt;答：时间管理、时间追踪、空间管理&lt;/p&gt;
+&lt;p&gt;问：你在实践中发现了那些好用的规律？（暂且不用思考背后的原因）&lt;/p&gt;
+&lt;p&gt;答：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;争夺优先权：比如牛顿和莱布尼茨&lt;/li&gt;
-&lt;li&gt;打压异己：比如牛顿&lt;/li&gt;
-&lt;li&gt;被资历老的人打压：比如伽罗瓦&lt;/li&gt;
-&lt;li&gt;乱搞男女关系：我听说过一些教授性侵学生的事&lt;/li&gt;
-&lt;li&gt;为了搞清楚某个东西不择手段</summary>
+&lt;li&gt;&lt;strong&gt;自我进步的时间不能太长也不能太短，要适度。平均每天15分钟是一个很好的经验数值。</summary>
         
       
     
@@ -2447,8 +2726,6 @@
     
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="science" scheme="https://xuan-jr.github.io/tags/science/"/>
     
   </entry>
   
@@ -2515,27 +2792,27 @@
   </entry>
   
   <entry>
-    <title>我对自省的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Self-Improvement/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Self-Improvement/</id>
+    <title>我对科学家的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Scientists/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Scientists/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:08:24.000Z</updated>
+    <updated>2025-05-28T14:08:01.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;问：你眼中的自我进步的定义是什么？&lt;/p&gt;
-&lt;p&gt;答：定义为通过一些思考来让自己变得更优秀。通常特指工作学习之外的思考。&lt;/p&gt;
-&lt;p&gt;问：它的同义词？&lt;/p&gt;
-&lt;p&gt;答：自我提升、自我改进。&lt;/p&gt;
-&lt;p&gt;问：它包括什么？&lt;/p&gt;
-&lt;p&gt;答：时间管理、时间追踪、空间管理&lt;/p&gt;
-&lt;p&gt;问：你在实践中发现了那些好用的规律？（暂且不用思考背后的原因）&lt;/p&gt;
-&lt;p&gt;答：&lt;/p&gt;
+    <summary type="html">&lt;p&gt;问：听说你最近说什么“坚固持久的幻觉”？&lt;/p&gt;
+&lt;p&gt;答：是的，科学家不会学术造假，这是我脑海中最为坚固持久的幻觉。&lt;/p&gt;
+&lt;p&gt;问：难道你上大学前就从来没听说过科学家里也有坏人吗？&lt;/p&gt;
+&lt;p&gt;答：当然听说过。但是，我当时听说的仅仅是&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;自我进步的时间不能太长也不能太短，要适度。平均每天15分钟是一个很好的经验数值。</summary>
+&lt;li&gt;争夺优先权：比如牛顿和莱布尼茨&lt;/li&gt;
+&lt;li&gt;打压异己：比如牛顿&lt;/li&gt;
+&lt;li&gt;被资历老的人打压：比如伽罗瓦&lt;/li&gt;
+&lt;li&gt;乱搞男女关系：我听说过一些教授性侵学生的事&lt;/li&gt;
+&lt;li&gt;为了搞清楚某个东西不择手段</summary>
         
       
     
@@ -2548,33 +2825,7 @@
     
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
-  </entry>
-  
-  <entry>
-    <title>我对一些历史文章的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Historical_Articles/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Historical_Articles/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T02:20:08.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://github.com/Physics-Lee/My_Attitude_towards_Sth/assets/68525696/441edfff-8691-4fe7-b5bc-e957e3ec28e4&quot; alt=&quot;image&quot;&gt;&lt;a href=&quot;http://www.ce.cn/xwzx/gnsz/szyw/200706/11/t20070611_11691323.shtml&quot;&gt;彭德怀的信&lt;/a&gt;：我能看懂。&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    <category term="science" scheme="https://xuan-jr.github.io/tags/science/"/>
     
   </entry>
   
@@ -2606,94 +2857,6 @@
   </entry>
   
   <entry>
-    <title>我对一些自媒体的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Ups/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Ups/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:12:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：你对小林、小岛、李永乐的看法是什么？&lt;/p&gt;
-&lt;p&gt;答：小林对巴以战争充满同情，小岛认为巴以战争不关我事，李永乐对穷人、穷人的孩子充满同情。我更喜欢小林、李永乐这样充满同情心、能共情的人，而不是小岛这样的利己主义者。&lt;/p&gt;
-&lt;p&gt;问：利他主义和利己主义应该是一个连续谱吧？&lt;/p&gt;
-&lt;p&gt;答：是的。我、小林、李永乐更偏向利他主义，小岛更偏向利己主义。父亲、母亲、贺维易、冯鑫也都偏利他主义，程玉锟偏利己主义。&lt;/p&gt;
-&lt;p&gt;问：你觉得你有过度共情吗？&lt;/p&gt;
-&lt;p&gt;答：可能稍微有一些，但</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对TimeTrack的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Timetrack/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Timetrack/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:13:05.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：你为什么要放弃 Timetrack</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我对科大坏习惯杂的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_USTC_Bad_Habits/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_USTC_Bad_Habits/</id>
-    <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:14:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问：你把科气翻译成了USTC Bad</summary>
-        
-      
-    
-    
-    
-    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
-    
-    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
-    
-    
-    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
-    
-    <category term="USTC" scheme="https://xuan-jr.github.io/tags/USTC/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我对上海交大、中国科大生存手册的看法</title>
     <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Survival_Manual_of_SJTU_and_USTC/"/>
     <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Survival_Manual_of_SJTU_and_USTC/</id>
@@ -2721,23 +2884,19 @@
   </entry>
   
   <entry>
-    <title>我对邓小平的看法</title>
-    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Xiaoping_Deng/"/>
-    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Xiaoping_Deng/</id>
+    <title>我对一些历史文章的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Historical_Articles/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Historical_Articles/</id>
     <published>2024-02-16T16:00:00.000Z</published>
-    <updated>2025-05-28T14:19:28.000Z</updated>
+    <updated>2025-05-28T02:20:08.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;问：你对邓小平的看法是什么？&lt;/p&gt;
-&lt;p&gt;答：有功有过。&lt;/p&gt;
-&lt;p&gt;问：这不是废话吗？&lt;/p&gt;
-&lt;p&gt;答：没办法，我对毛泽东、邓小平的评价都是有功有过，对公有制、私有制的评价是各有各的优缺点。&lt;/p&gt;
-&lt;p&gt;问：你对邓小平的名言，“不管黑猫白猫，能抓到耗子就是好猫”有什么看法？&lt;/p&gt;
-&lt;p&gt;答：重点是如何定义“耗子”？如果&lt;strong&gt;把耗子定义成经济增长&lt;/strong&gt;，那耿美玉这种卖假药的、高启强这种黑社会也都是好猫了。如果&lt;strong&gt;把耗子定义成有利于一个国家乃至全人</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://github.com/Physics-Lee/My_Attitude_towards_Sth/assets/68525696/441edfff-8691-4fe7-b5bc-e957e3ec28e4&quot; alt=&quot;image&quot;&gt;&lt;a href=&quot;http://www.ce.cn/xwzx/gnsz/szyw/200706/11/t20070611_11691323.shtml&quot;&gt;彭德怀的信&lt;/a&gt;：我能看懂。&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -2786,6 +2945,38 @@
   </entry>
   
   <entry>
+    <title>我对一些自媒体的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Ups/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Some_Ups/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:12:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：你对小林、小岛、李永乐的看法是什么？&lt;/p&gt;
+&lt;p&gt;答：小林对巴以战争充满同情，小岛认为巴以战争不关我事，李永乐对穷人、穷人的孩子充满同情。我更喜欢小林、李永乐这样充满同情心、能共情的人，而不是小岛这样的利己主义者。&lt;/p&gt;
+&lt;p&gt;问：利他主义和利己主义应该是一个连续谱吧？&lt;/p&gt;
+&lt;p&gt;答：是的。我、小林、李永乐更偏向利他主义，小岛更偏向利己主义。父亲、母亲、贺维易、冯鑫也都偏利他主义，程玉锟偏利己主义。&lt;/p&gt;
+&lt;p&gt;问：你觉得你有过度共情吗？&lt;/p&gt;
+&lt;p&gt;答：可能稍微有一些，但</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我对汉语、英语、中英混杂的看法</title>
     <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Using_Chinese_and_English/"/>
     <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Using_Chinese_and_English/</id>
@@ -2819,6 +3010,94 @@
     <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
     
     <category term="language" scheme="https://xuan-jr.github.io/tags/language/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我对TimeTrack的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Timetrack/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Timetrack/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:13:05.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：你为什么要放弃 Timetrack</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我对邓小平的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Xiaoping_Deng/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_Xiaoping_Deng/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:19:28.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：你对邓小平的看法是什么？&lt;/p&gt;
+&lt;p&gt;答：有功有过。&lt;/p&gt;
+&lt;p&gt;问：这不是废话吗？&lt;/p&gt;
+&lt;p&gt;答：没办法，我对毛泽东、邓小平的评价都是有功有过，对公有制、私有制的评价是各有各的优缺点。&lt;/p&gt;
+&lt;p&gt;问：你对邓小平的名言，“不管黑猫白猫，能抓到耗子就是好猫”有什么看法？&lt;/p&gt;
+&lt;p&gt;答：重点是如何定义“耗子”？如果&lt;strong&gt;把耗子定义成经济增长&lt;/strong&gt;，那耿美玉这种卖假药的、高启强这种黑社会也都是好猫了。如果&lt;strong&gt;把耗子定义成有利于一个国家乃至全人</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我对科大坏习惯杂的看法</title>
+    <link href="https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_USTC_Bad_Habits/"/>
+    <id>https://xuan-jr.github.io/2024/02/17/My_Attitude_towards_USTC_Bad_Habits/</id>
+    <published>2024-02-16T16:00:00.000Z</published>
+    <updated>2025-05-28T14:14:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问：你把科气翻译成了USTC Bad</summary>
+        
+      
+    
+    
+    
+    <category term="2024" scheme="https://xuan-jr.github.io/categories/2024/"/>
+    
+    <category term="2024-02" scheme="https://xuan-jr.github.io/categories/2024/2024-02/"/>
+    
+    
+    <category term="THINK" scheme="https://xuan-jr.github.io/tags/THINK/"/>
+    
+    <category term="USTC" scheme="https://xuan-jr.github.io/tags/USTC/"/>
     
   </entry>
   
@@ -2886,7 +3165,7 @@
     <link href="https://xuan-jr.github.io/2024/02/02/Diary/"/>
     <id>https://xuan-jr.github.io/2024/02/02/Diary/</id>
     <published>2024-02-01T16:00:00.000Z</published>
-    <updated>2025-11-23T06:08:33.067Z</updated>
+    <updated>2026-03-15T04:41:14.302Z</updated>
     
     
       
